@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+
+    <style>
+        form {
+            border: 2px solid black;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        input {
+            padding: 8px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Signup Form</h2>
+
+    <form>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname"
+               placeholder="Enter your name" required>
+        <br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"
+               placeholder="Enter your email" required>
+        <br><br>
+
+        <label>Username:</label><br>
+        <input type="text" name="username"
+               placeholder="Create username" required>
+        <br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"
+               placeholder="Create password" required>
+        <br><br>
+
+        <label>Confirm Password:</label><br>
+        <input type="password" name="confirm_password"
+               placeholder="Confirm password" required>
+        <br><br>
+
+        <label>Gender:</label><br>
+
+        <input type="radio" name="gender" value="male">
+        Male
+
+        <input type="radio" name="gender" value="female">
+        Female
+
+        <input type="radio" name="gender" value="other">
+        Other
+
+        <br><br>
+
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+
+</body>
+</html>
+```
